@@ -1,0 +1,4 @@
+types:
+    Product:
+        properties:
+            name: { nullable: false }
