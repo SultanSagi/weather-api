@@ -32,7 +32,7 @@ class MessengerController extends AbstractController
     }
 
     /**
-     * @Route("/weather/create, name="create-weather")
+     * @Route("/weather/create", name="create-weather")
      */
     public function create(): Response
     {
