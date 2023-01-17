@@ -38,6 +38,6 @@ class MessengerController extends AbstractController
     {
         $this->messageBus->dispatch(new CreateWeather);
 
-        return new Response('Weather data');
+        return new Response('Weather data updated');
     }
 }

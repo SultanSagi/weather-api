@@ -4,7 +4,8 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-
+    app.weatherApiKey: '400c72073669554d1dc38abdbaf0892f'
+    app.weatherUrl: 'https://api.openweathermap.org/data/2.5/weather'
 services:
     # default configuration for services in *this* file
     _defaults:
